@@ -7,7 +7,7 @@
 import pandas as pd
 import re
 import pymongo
-client = pymongo.MongoClient("mongodb://") 
+client = pymongo.MongoClient("") 
 db = client.data3
 collection=db['twitter']
 
